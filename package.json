@@ -1,0 +1,18 @@
+{
+  "name": "proj7",
+  "version": "1.0.0",
+  "description": "use Twitter’s REST API to access your Twitter profile information and render it to a user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Donald Yeh",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^5.0.3",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2",
+    "twit": "^2.2.5"
+  }
+}
